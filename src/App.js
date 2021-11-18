@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Foda-se Todo mundo
+          Learn React
         </a>
       </header>
     </div>
