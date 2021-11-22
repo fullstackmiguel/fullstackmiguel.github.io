@@ -18,3 +18,4 @@ body::-webkit-scrollbar {
     list-style-type: none;
   }
   
+  .avatar{border-radius: 50%; width: 100px; margin: 10px;}
