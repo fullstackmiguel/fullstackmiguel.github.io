@@ -17,5 +17,6 @@ body::-webkit-scrollbar {
   li {
     list-style-type: none;
   }
+  .custom{padding: 200x;}
   
-  .avatar{border-radius: 50%; width: 100px; margin: 10px;}
+  .avatar{border-radius: 50%; width: 100px; margin-top: 50px;}
