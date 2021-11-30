@@ -22,21 +22,21 @@
                     <div class="col">
                         <div class="form-group">
                             
-                            <input type="email" required class="form-control" placeholder="nome@seuemail.com">
+                            <input type="email" required class="form-control" name="email" placeholder="nome@seuemail.com">
                         </div>
                         <div class="form-group">
-                            <input type="text" required class="form-control" placeholder="Nome">
+                            <input type="text" required class="form-control" name="nome" placeholder="Nome">
                     </div>
                     <div class="form-group">
-                      <input type="text" class="form-control" required placeholder="Sobrenome">
+                      <input type="text" class="form-control" name="sobrenome" required placeholder="Sobrenome">
                     </div>
                     <div class="form-group col-sm-3">
                     
-                    <input type="text" class="form-control" placeholder="Celular (opcional)" id="telefone" onkeyup="mascaraFone(event)">
+                    <input type="text" class="form-control" name="cel" placeholder="Celular (opcional)" id="telefone" onkeyup="mascaraFone(event)">
                 </div>
                   <div class="form-group">
                     <label ></label>
-                    <textarea class="form-control" id='area' rows="3" required placeholder="Insira sua dúvida ou proposta de site"></textarea>
+                    <textarea class="form-control" name="proposta" id='area' rows="3" required placeholder="Insira sua dúvida ou proposta de site"></textarea>
                   <br>
                 <button type="submit" class="btn btn-primary">Enviar!</button>
               </form>
