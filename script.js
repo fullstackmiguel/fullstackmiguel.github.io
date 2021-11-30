@@ -20,8 +20,7 @@ function mascaraFone(event) {
     document.getElementById("telefone").attributes[0].ownerElement['value'] = retorno;
   }
 
-  let area= getElementById('area')
+  let area = getElementById('area')
 
-  area.style.cssText = 'resize: none;'
 
   
