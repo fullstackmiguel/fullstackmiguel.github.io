@@ -3,4 +3,4 @@ function retorno(){
 }
 
 
-window.onload(retorno)
+window.onload = retorno();
