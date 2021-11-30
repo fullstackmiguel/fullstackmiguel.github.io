@@ -4,11 +4,11 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
-    background: rgb(106, 106, 153);        /* color of the tracking area */
+    background: rgb(82, 82, 82);        /* color of the tracking area */
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: rgb(106, 106, 153);    /* color of the scroll thumb */
+    background-color: rgb(82, 82, 82);    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px solid rgb(200, 200, 250);  /* creates padding around scroll thumb */
   }
@@ -20,3 +20,16 @@ body::-webkit-scrollbar {
   .custom{padding: 200x;}
   
   .avatar{border-radius: 50%; width: 100px; margin-top: 50px;}
+  .progress{height: 10px;}
+
+  .form{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.17);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+padding: 10px;
+  }
+
+  body{background-color: #0078FF;}
